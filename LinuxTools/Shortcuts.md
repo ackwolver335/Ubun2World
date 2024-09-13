@@ -45,9 +45,9 @@ Here we have the availability of almost all the shortcuts that are hold by your 
 
 | 🎯 **Shortcuts** | 💠 **Actions** |
 | ------------- | ----------- |
-| **ALT** + **SUPER** + **S** | Used for Initiating Screen Reader Accessibility |
-| **ALT** + **SUPER** + **8** | Applies for using screen magnifier |
-| **ALT** + **SUPER** + **+/-** | For zooming In/Out magnifier when it is active |
+| **ALT** + **SUPER** + **S** | ⤐ Used for Initiating Screen Reader Accessibility |
+| **ALT** + **SUPER** + **8** | ⤐ Applies for using screen magnifier |
+| **ALT** + **SUPER** + **+/-** | ⤐ For zooming In/Out magnifier when it is active |
 
 ## 🤝🏻 Support Me 🗿
 
