@@ -2,6 +2,12 @@
 
 **Ubuntu** is a well known and famous version of Linux and most of the user who usually wants to keep focused in the frame of this CLI and GUI combined world generally be in touch with this Operating System. Also this is not for beginners of coding, programming or even development fields.
 
+***
+
+![UbuntuWorld](https://github.com/user-attachments/assets/cb2f1874-fe14-4391-ac3c-22cca679af5b)
+
+***
+
 It is generally used by some of the most secure and working users who don't actually wants to have risk of their personal and professional world data.
 
 ## 🤔 What you'll find here ❓
