@@ -11,7 +11,7 @@ It is generally used by some of the most secure and working users who don't actu
 | **Linux Shortcuts** | 🎯 [CheckoutNow](https://github.com/ackwolver335/Ubun2World/blob/main/LinuxTools/Shortcuts.md) |
 | **Linux Commands** | 🎯 [CheckoutNow]() |
 
-### 🔅 Importance of Ubuntu as OS 🔽
+## 🔅 Importance of Ubuntu as OS 🔽
 
 - 🖥️ **Open-Source Nature** :- Being an open-source operating system, Ubuntu provides full control over the system's software and customization options. Programmers can tweak it as needed, making it ideal for development environments.
 
