@@ -56,4 +56,8 @@ Here we have the availability of almost all the shortcuts that are hold by your 
 - Give a ✴️ to my Repo.
 - Share 🔊 my work with your network 🌐
 
+➱ Everyone, visiting these helpful notes or information, its owner's humble request to please provide the feedback in the Discussion Page of our Repo for making more better improvement in our learning Resources.
+
+➱ [Click](https://github.com/ackwolver335/Ubun2World/discussions) here to visiting discussion center.
+
 Thanks for visiting my Repository, hope you find it useful. Let's [connect](https://github.com/ackwolver335) and collaborate for building 🏗️ something amazing 🗿
