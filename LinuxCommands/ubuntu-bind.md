@@ -54,3 +54,46 @@ bind -V
 ```
 
 ✐ Further more options can be used in the similar format and also we can use them with the help of **Table** given [above](#-arguments-overview-️).
+
+## 🔌 How to install bind command ❓
+
+⦿ In case you don't have bind command in your installed **Ubuntu Terminal** you need to install it, and for installation regarding this command we further have different methods, either we may install it through **apt** or through **yum**.
+
+➱ Let's install bind command using **apt** with the command given below ⌨️
+
+```
+sudo apt-get install bind9
+```
+
+➱ Let's install bind using **yum** command on the place of **apt** ⌨️
+
+```
+sudo yum install bind
+```
+
+🖱️ Apart from all of this, we further have another command regarding installation of this using **Source Code** and below we have specific commands for their installation.
+
+```
+wget http://ftp.isc.org/isc/bind9/9.11.2/bind-9.11.2.tar.gz
+tar -xvf bind-9.11.2.tar.gz
+cd bind-9.11.2
+./configure
+make
+sudo make install
+```
+
+## 🔌 How to install Specific Version of bind command ❓
+
+✇ Regarding installation of this command at a specific version we have different commands, below we have different methods or subcommands to be used in order to install bind command of **Specific Version** in your **Ubuntu Terminal**.
+
+➱ Installation of **bind** using **apt** command.
+
+```
+sudo apt-get install bind9=9.11.3-1ubuntu1.12
+```
+
+➱ Installation of **bind** using **yum** command.
+
+```
+sudo yum install bind-9.11.3
+```
