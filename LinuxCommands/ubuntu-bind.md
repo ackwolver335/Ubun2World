@@ -25,4 +25,14 @@ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x k
 | **-q function-name** | Used for providing **query** about the keys that invoked that particular function. |
 | **-u function-name** | ⤐ It is used for **unbinding** all the keys which are bounded to the named function. |
 
-#### Further information regarding the commands will be provided soon by the Developer as we're more exited then you on getting the final overview of this particular repository.
+## ❇️ Bind [--Options] Overview 🕹️
+
+✇ Using these particular options with this bind command is helpful in **Ubuntu Terminal**, as we uses these optional for specified purposes and also for fidning the methods or variable associated with specific key-sequences.
+
+➱ Let's now get the details regarding the available function's name in the form of list. And the syntax for it is given below !
+
+```
+bind -l
+```
+
+✐ Note : In this similar way we can use the above command in order to get the details regarding commands and options explained above.
