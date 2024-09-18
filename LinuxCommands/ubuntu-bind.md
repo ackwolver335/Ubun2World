@@ -36,3 +36,21 @@ bind -l
 ```
 
 ✐ Note : In this similar way we can use the above command in order to get the details regarding commands and options explained above.
+
+## 🔌 How to find functions and variables of binding keys in Terminal ❓
+
+✇ Getting details regarding functions and variables together by the key shortcuts or key sequences that are binded together with them, are as simpler than your thoughts your are wishing to them as harder.
+
+➪ Let's explore the function's name first together with their binded keys, with the command shown below 🔊
+
+```
+bind -P
+```
+
+➪ Also we can do the same with the variables and their details inside the **Terminal** in order to get available details 🫣
+
+```
+bind -V
+```
+
+✐ Further more options can be used in the similar format and also we can use them with the help of **Table** given [above](#-arguments-overview-️).
