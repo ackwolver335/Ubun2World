@@ -97,3 +97,42 @@ sudo apt-get install bind9=9.11.3-1ubuntu1.12
 ```
 sudo yum install bind-9.11.3
 ```
+
+## 🔌 How to use the bind command ⌨️ for key-bindings ❓
+
+✇ After the installation of the bind command properly we can easily intergrate it in order to specify different key bindings. We can customize it as per your choice, let us create a command using bind for clearing the screen of **Ubuntu Terminal**.
+
+```
+bind '"\C-I":clear-screen'
+```
+
+✐ Note : On using the command that is been defined above we can easily use the command to clear the screen in the similar way we can define our own other commands for specific purposes.
+
+## 🖥️ Troubleshooting Common Bind Command's Issues 🗿
+
+⦿ Sometimes, the command that we have set for a specific purpose may not be working, and at that particular situation we need to troubleshoot the commands in order to make them working correctly. 
+
+➱ Below we have a command that is not working properly due to its incorrect format to the **history-backward-function**.
+
+```
+bind '"e[A":history-search-backward'
+```
+
+➱ Let's make it working by adding a key-binding to the command in order to keep it working using **bashrc**.
+
+```
+echo 'bind "\e[A":history-search-backward' >> ~/.bashrc
+source ~/.bashrc
+```
+
+## 📖 Wrapping Up : Understanding the Use of Linux Bind Command 💻
+
+➪ We embarked on this journey with the basics, understanding the concept of key bindings and how to install the ‘bind’ command in Linux. We then ventured into more advanced territory, exploring how to use the ‘bind’ command to create custom key bindings, and even delved into installing different versions of the command
+
+## 📑 Feeback Request 🔍
+
+➱ Everyone, visiting these helpful notes or information, its owner's humble request to please provide the feedback in the Discussion Page of our Repo for making more better improvement in our learning Resources.
+
+➱ [Click](https://github.com/ackwolver335/Ubun2World/discussions) here to visiting discussion center.
+
+➱ Thanks for visiting my Repository, hope you find it useful. Let's [connect](https://github.com/ackwolver335) and collaborate for building 🏗️ something amazing 🗿
