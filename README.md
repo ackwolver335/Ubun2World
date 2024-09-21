@@ -15,7 +15,7 @@ It is generally used by some of the most secure and working users who don't actu
 | ✴️ **Topics**  | 🎁 **Source Link** |
 | ---------- | --------------- |
 | **Linux Shortcuts** | 🎯 [CheckoutNow](https://github.com/ackwolver335/Ubun2World/blob/main/LinuxTools/Shortcuts.md) |
-| **Linux Commands** | 🎯 [CheckoutNow](https://github.com/ackwolver335/Ubun2World/blob/main/LinuxTools/Commands.md) |
+| **Linux Commands** | 🎯 [CheckoutNow](https://github.com/ackwolver335/Ubun2World/tree/main/LinuxCommands) |
 
 ## 🔅 Importance of Ubuntu as OS 🔽
 
