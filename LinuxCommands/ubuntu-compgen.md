@@ -5409,6 +5409,10 @@ _xspecs
 | **-X** | ❖ It used to filter and remove the options first with the help of a pattern, after applying all options or arguments. |
 | **-P** & **-S** | ❖ It is used in order to add prefix and suffix, to each completion of the task after all other options have been applied. |
 
+## ✍ Conclusion ✯
+
+✉ Here we looked at different ways to use the compgen command to generate completions for a given word. Thus, we can use the command in other programs and Bash scripts for generating custom completions.
+
 ## 📑 Feeback Request 🔍
 
 ➱ Everyone, visiting these helpful notes or information, its owner's humble request to please provide the feedback in the Discussion Page of our Repo for making more better improvement in our learning Resources.
