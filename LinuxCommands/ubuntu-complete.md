@@ -50,3 +50,19 @@ complete -D && complete -E && complete -I
 ```
 
 ## 🪄 Specified Arguments Explanation 🖥️
+
+| 🎯 **Args** | 📑 **Usage** |
+| -------- | --------- |
+| **-p** | ❖ It prints existing completion specification in a reusable format together by removing completion specified name, but if not a single name provided, then it prints all of them. |
+| **-r** | ❖ It removes all the completion specified, but if any particular name is supplied then it applies all the completion specified. |
+| **-D** | ❖ It is used for applying the completion or actions as a default for commands with a specification applied on it. |
+| **-E** | ❖ It is used for applying completion on specified on the empty commands attempted on a blank line. |
+| **-I** | ❖ It applies the actions on the initial commands over to the list of the Ubuntu Terminal. |
+
+## 📑 Feeback Request 🔍
+
+➱ Everyone, visiting these helpful notes or information, its owner's humble request to please provide the feedback in the Discussion Page of our Repo for making more better improvement in our learning Resources.
+
+➱ [Click](https://github.com/ackwolver335/Ubun2World/discussions) here to visit the **discussion center**.
+
+➱ Thanks for visiting my Repository, hope you find it useful. Let's [connect](https://github.com/ackwolver335) and collaborate for building 🏗️ something amazing 🗿
