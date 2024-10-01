@@ -1,4 +1,4 @@
-# 💠 Ubuntu compopt Command 🛅
+# 💠 Ubuntu coproc Command 🛅
 
 **About It** ➤ It is used in order to execute a particular process asynchronously, And this is done with the standard output and standard input of the command connected via a pipe to file descriptors assigned to indices 0 and 1 of an array variable NAME in the executing shell.
 
@@ -110,6 +110,10 @@ cat <&"${processName[0]}"
 ```
 
 ❌ Note : Here these detailed command and its working format that is been shown below is dependent on different version of bash and shell here, so remember them while initiating these commands, again in the format given below.
+
+## ✍ Advantages of COPROC Command 🖥️
+
+🖱️ Running a co-process in the background can also be achieved by using & operator which can be simply appended to the command. Commands like fg, kill, and [jobspec]% can be used to bring the process to the foreground or sending signals to it. But this does not allow us to send input to the background command or read the output of that command. This can be achieved using coproc command which can be interpreted as having the same function as an & operator with a two-way pipe established between the executing shell and the co-process. 
 
 ## 📑 Feeback Request 🔍
 
