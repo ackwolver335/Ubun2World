@@ -4,7 +4,7 @@
 
 ➱ Let's get started with it with the help of having an example with this particular **Printing** command.
 
-```shell
+```bash
 # first way to print the command
 echo Simple Text your want to print
 
@@ -20,7 +20,7 @@ echo "Inside the double or single quotes"
 
 ➱ Let's know more about it with the help of its basic syntax given below 👇🏻
 
-```
+```bash
 echo [-neE] [args..]
 ```
 
