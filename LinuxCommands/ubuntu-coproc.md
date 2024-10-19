@@ -6,7 +6,7 @@
 
 ➱ Let's get mix up with it by running its basic format of command and also getting what happens afterwards.
 
-```
+```bash
 coproc [name_here] command_of_ubuntu [redirection_of_commad]
 
 # further different format of it
@@ -20,7 +20,7 @@ coproc name command args #second command
 
 ✇ While this particular procedure of getting the instruction added in the **COPROC** array or in its head is too easier to get started with and this is done with the help of command structure that is been given below.
 
-```
+```bash
 # getting the detail of pc or me
 coproc (echo $(whoami))
 
@@ -43,7 +43,7 @@ echo "The user is $o which is the output of the coprocess"
 
 ✇ Here, we don't have to get confused about the task and getting the things done with the help of **COPROC** command, in order to do this we just need to follow the syntax given below and in some of those things we can also make some changes.
 
-```
+```bash
 # getting the name defined first with the help of coproc command
 coproc ackWolver { bash; }
 
@@ -65,7 +65,7 @@ echo $data1
 
 ➱ Let's have a look on the code and its working over to the **Ubuntu Terminal**.
 
-```
+```bash
 # intiating reading the input thrught the defined variable
 coproc varName ( read -r input; echo "${input}" )
 
@@ -95,7 +95,7 @@ echo "The output of coprocess is ${output2}"
 
 ➱ Let's have a look here to check the details here  regarding changes in Instances and other necessary things.
 
-```
+```bash
 # initiating process with the Instances
 coproc processName { tr a b; }
 
