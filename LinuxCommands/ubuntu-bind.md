@@ -6,7 +6,7 @@
 
 ➱ Let's get started having a look on its syntax in the most simpler way, in order to keep in mind for Ubuntu's Beginners.
 
-```
+```bash
 bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x keyseq:shell-command] [keyseq;readline-function or readline-command]
 ```
 
@@ -31,7 +31,7 @@ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x k
 
 ➱ Let's now get the details regarding the available function's name in the form of list. And the syntax for it is given below !
 
-```
+```bash
 bind -l
 ```
 
@@ -43,13 +43,13 @@ bind -l
 
 ➪ Let's explore the function's name first together with their binded keys, with the command shown below 🔊
 
-```
+```bash
 bind -P
 ```
 
 ➪ Also we can do the same with the variables and their details inside the **Terminal** in order to get available details 🫣
 
-```
+```bash
 bind -V
 ```
 
@@ -61,19 +61,19 @@ bind -V
 
 ➱ Let's install bind command using **apt** with the command given below ⌨️
 
-```
+```bash
 sudo apt-get install bind9
 ```
 
 ➱ Let's install bind using **yum** command on the place of **apt** ⌨️
 
-```
+```bash
 sudo yum install bind
 ```
 
 🖱️ Apart from all of this, we further have another command regarding installation of this using **Source Code** and below we have specific commands for their installation.
 
-```
+```bash
 wget http://ftp.isc.org/isc/bind9/9.11.2/bind-9.11.2.tar.gz
 tar -xvf bind-9.11.2.tar.gz
 cd bind-9.11.2
@@ -88,13 +88,13 @@ sudo make install
 
 ➱ Installation of **bind** using **apt** command.
 
-```
+```bash
 sudo apt-get install bind9=9.11.3-1ubuntu1.12
 ```
 
 ➱ Installation of **bind** using **yum** command.
 
-```
+```bash
 sudo yum install bind-9.11.3
 ```
 
@@ -102,7 +102,7 @@ sudo yum install bind-9.11.3
 
 ✇ After the installation of the bind command properly we can easily intergrate it in order to specify different key bindings. We can customize it as per your choice, let us create a command using bind for clearing the screen of **Ubuntu Terminal**.
 
-```
+```bash
 bind '"\C-I":clear-screen'
 ```
 
@@ -114,13 +114,13 @@ bind '"\C-I":clear-screen'
 
 ➱ Below we have a command that is not working properly due to its incorrect format to the **history-backward-function**.
 
-```
+```bash
 bind '"e[A":history-search-backward'
 ```
 
 ➱ Let's make it working by adding a key-binding to the command in order to keep it working using **bashrc**.
 
-```
+```bash
 echo 'bind "\e[A":history-search-backward' >> ~/.bashrc
 source ~/.bashrc
 ```
