@@ -6,7 +6,7 @@
 
 ➱ Let's get enrolled in the syntax here, which is given below.
 
-```
+```bash
 dirs [-clpv] [+N] [-N]
 ```
 
@@ -14,7 +14,7 @@ dirs [-clpv] [+N] [-N]
 
 ✇ In order to start using the **dirs** command it is used for performing basic methods, in order to use the proper methods and proper syntax also the working methods for getting the data or directory displayed. Below we have the syntax regarding it.
 
-```
+```bash
 # getting the general location first
 dirs
 
@@ -30,7 +30,7 @@ dirs -c
 
 ➱ Let's understand the details about the command now, with the syntax given below.
 
-```
+```bash
 # pushing the detail below in a particular folder
 pushd /etc
 
@@ -54,7 +54,7 @@ popd
 
 ➱ Also remember that these options can generally be used in order to check the stack list or data to be displayed. And related to this we have the code syntax to be used in order to get these options and arguments used.
 
-```
+```bash
 # checking the single line stack format to be displayed
 dirs -p
 
