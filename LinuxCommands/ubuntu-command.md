@@ -6,13 +6,13 @@
 
 ➱ Let's have a look on its use case and command structure.
 
-```
+```bash
 command
 ```
 
 ➱ Below we the default use case for using **command** Command in Ubuntu Terminal.
 
-```
+```bash
 command Ubuntu_command_here
 ```
 
@@ -30,19 +30,19 @@ command Ubuntu_command_here
 
 🖱️ Below we have the directional syntax for using **-p** together with the **command** Command in Ubuntu Terminal 🔊 It will return the usage and working of it, if available it would return the working pathway of it.
 
-```
+```bash
 command -p ubuntu_command_name
 ```
 
 🖱️ Below we have the directional syntax for using **-v**, as it returns the command name and short description about it, also you wouldn't get much ideas about the command on using this particular optional option here.
 
-```
+```bash
 command -v ubuntu_command_name
 ```
 
 🖱️ Below we have the directional syntax for using **-V**, as it returns a proper description about the command regarding its type and other usage, in which category does it falls, and other available information.
 
-```
+```bash
 command -V ubuntu_command_name
 ```
 
