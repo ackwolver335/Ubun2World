@@ -4,7 +4,7 @@
 
 ⦿ Further we'll be gathering the syntax and other informational arguments to be passed afterwords, having a lot on its syntax.
 
-```
+```bash
 compopt [options] [-DEI] [name_of_option]
 ```
 
@@ -19,7 +19,7 @@ compopt [options] [-DEI] [name_of_option]
 
 ✐ Note : Both **-o** and **+o** are given in the Args or Option list, but it is recommended to use **+o** only at the time of usage.
 
-✖ #Note : Also there was not at all resources were found regarding this particular command, if you have some details please provide us in the Discussion center,link is been shared below.
+✖ Note : Also there was not at all resources were found regarding this particular command, if you have some details please provide us in the Discussion center,link is been shared below.
 
 ## 📑 Feeback Request 🔍
 
