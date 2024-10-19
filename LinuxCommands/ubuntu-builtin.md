@@ -7,13 +7,13 @@
 ➪ Let's run the command and see what happens, as there is no change in the UI on its execution.
 
 
-```
+```bash
 builtin
 ```
 
 **General Definition** ➤ builtin command is used to run a shell builtin, passing it arguments(args), and also to get the exit status. The main use of this command is to define a **shell function** having the same name as the shell builtin by keeping the *functionality* of the builtin within the function.
 
-```
+```bash
 builtin ubuntu_command_here
 ```
 
@@ -24,7 +24,7 @@ builtin ubuntu_command_here
 ✇ In order to define a shell function with the help of builtin command, we can do it with so easier steps just by using the syntax as it is given below we can define it as per our own needs and requirements. But would only works with the pre-defined keywords of **Ubuntu Terminal**. Below we have further code explanation.
 
 
-```
+```bash
 cd()
 {
     builtin cd Documents
