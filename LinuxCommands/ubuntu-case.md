@@ -8,7 +8,7 @@
 
 ➱ The syntax of the Bash case statement consists of the “case” keyword followed by the value to be matched, the “in” keyword, and one or more patterns with corresponding code blocks enclosed in “;;” statements:
 
-```
+```bash
 case EXPRESSION in
 
   PATTERN_1)
@@ -49,7 +49,7 @@ esac
 
 ➱ Let's understand this with the help of an example and run the code within the **Ubuntu Terminal** in our OS.
 
-```
+```bash
 #!/bin/bash
 
 echo -n "Enter the name of a country: "
@@ -81,7 +81,7 @@ esac
 
 ➪ For running the file in **Ubuntu Terminal** you need to running the following command.
 
-```
+```bash
 bash file_name.sh
 ```
 
