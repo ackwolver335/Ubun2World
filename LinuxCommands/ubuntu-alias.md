@@ -6,13 +6,13 @@
 
 ➪ Run the command given below to check the available aliases on your devices.
 
-```
+```bash
 alias
 ```
 
 ➪ Command given below works similar to above, one but have the difference of preference. As here we uses **-p** for getting all the available aliases in Ubuntu Terminal.
 
-```
+```bash
 alias -p
 ```
 
@@ -20,7 +20,7 @@ alias -p
 
 ⦿ Let us create our own commands with the help of linux **alias** command, but before which let us first review its syntax.
 
-```
+```bash
 # alias command_name='linux command to be used'
 ```
 
@@ -28,7 +28,7 @@ alias -p
 
 ➪ I m going to create a command **cdDown** for opening **Downloads** folder directly. So, follow the syntax carefully.
 
-```
+```bash
 alias cdDown='cd Downloads'
 ```
 
@@ -42,13 +42,13 @@ alias cdDown='cd Downloads'
 
 ⦿ Deleting an alias in **Ubuntu Terminal** is so simple, as you think for your first time to be harder, below we have syntax for deleting an alias name that is no longer required for further usage.
 
-```
+```bash
 # unalias alias_name
 ```
 
 ➪ So, after getting the syntax let us simply delete that particular alias that we have created for learning alias creation.
 
-```
+```bash
 unalias cdDown
 ```
 
