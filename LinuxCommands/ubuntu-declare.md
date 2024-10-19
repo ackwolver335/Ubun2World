@@ -6,7 +6,7 @@
 
 ➱ By default without declaration below we have its syntax or keyword to be used for its initiation operation.
 
-```
+```bash
 declare
 ```
 
@@ -26,7 +26,7 @@ declare
 
 ➱ Let's have an example here for getting the usage of these args understood.
 
-```
+```bash
 declare -p
 ```
 
@@ -49,7 +49,7 @@ declare -p
 
 ➱ Let's have a look on its usage or how to use these particular args or options with **declare** command in **Ubuntu Terminal**.
 
-```
+```bash
 # defining a local variable here first
 declare -I "Local_variables_name"
 
