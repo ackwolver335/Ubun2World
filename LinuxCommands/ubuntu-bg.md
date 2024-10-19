@@ -6,7 +6,7 @@
 
 ➱ Let's get started by exploring the Syntax of the bg command and learning its use.
 
-```
+```bash
 # bg job_ID
 #bg job_ID1 job_ID2
 ```
@@ -15,7 +15,7 @@
 
 ✇ Searching for current job status or session is so simple from your thoughts or expectation, also here we have another command for checking the concept of current job status or session, below we have the syntax for it.
 
-```
+```bash
 jobs
 # or 
 jobs -l
@@ -27,7 +27,7 @@ jobs -l
 
 ➱ Let's understand by running a particular jobs, say for we found a job with name **gnome-calculator** and we want to run it,
 
-```
+```bash
 bg %2
 ```
 
@@ -37,7 +37,7 @@ bg %2
 
 ✇ In simple words, a job that is currently running can be easily suspended by using `Ctrl+Z` shortcut key/sequence and we have an alternative regarding this, that we can use the `kill` or `pkill` command in the way mentioned below to stop any job session.
 
-```
+```bash
 # kill -s stop PID
 # kill -s stop jobID
 # pkill -stop PID
