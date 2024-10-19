@@ -6,7 +6,7 @@
 
 ➱ Let's have a look on its command's format together by using optional arguments in its syntax.
 
-```
+```bash
 compgen options
 compgen options args
 ```
@@ -34,13 +34,13 @@ compgen options args
 
 ▷ Let's get the available aliases in the OS via **Ubuntu Terminal** using compgen command, taking the sytnax first 🔊
 
-```
+```bash
 compgen -a
 ```
 
 ⌨️ Output Similar to one Below 👇🏻
 
-`
+```bash
 alert
 egrep
 fgrep
@@ -49,17 +49,17 @@ l
 la
 ll
 ls
-`
+```
 
 ▷ Getting the details regarding builtin's available in the **Terminal** or **OS**, taking the syntax first 🔊
 
-```
+```bash
 compgen -b
 ```
 
 ⌨️ Output is given Below 👇🏻
 
-`
+```bash
 .
 :
 [
@@ -121,17 +121,17 @@ umask
 unalias
 unset
 wait
-`
+```
 
 ▷ Let's find the available commands in the **Terminal**, and understand the syntax for getting it 🔊
 
-```
+```bash
 compgen -c
 ```
 
 ⌨️ Output regarding it Below 👇🏻
 
-`
+```bash
 alert
 egrep
 fgrep
@@ -4617,17 +4617,17 @@ npm
 libreoffice.impress
 npx
 node.npm
-`
+```
 
 ▷ Understand the use and output of **-d** arg when used together with compgen command 🔊
 
-```
+```bash
 compgen -d
 ```
 
 ⌨️ Below we have its Terminal Based Output 👇🏻
 
-`
+```bash
 .vscode
 Downloads
 .th-client
@@ -4650,17 +4650,17 @@ Desktop
 .gnupg
 Public
 exercises
-`
+```
 
 ▷ Let's grab the knowledge regarding **-e** argument when passed with compgen command and its syntax also.
 
-```
+```bash
 compgen -e
 ```
 
 ⌨️ Below we have further Output Information 👇🏻
 
-`
+```bash
 COLORTERM
 DBUS_SESSION_BUS_ADDRESS
 DEBUGINFOD_URLS
@@ -4711,17 +4711,17 @@ XDG_SESSION_CLASS
 XDG_SESSION_DESKTOP
 XDG_SESSION_TYPE
 XMODIFIERS
-`
+```
 
 ▷ Getting to know about args with **-f** to get the file's details with syntax of it 🔊
 
-```
+```bash
 compgen -f
 ```
 
 ⌨️ Getting the Output of it available below 👇🏻
 
-`
+```bash
 .vscode
 Downloads
 .th-client
@@ -4764,17 +4764,17 @@ Desktop
 Public
 .swi
 exercises
-`
+```
 
 ▷ Learning the use of **-g** in order to get details regarding it groups with usable syntax 🔊
 
-```
+```bash
 compgen -g
 ```
 
 ⌨️ Let's get the output of it below 👇🏻
 
-`
+```bash
 root
 daemon
 bin
@@ -4852,11 +4852,11 @@ lxd
 gamemode
 gnome-initial-setup
 ackwolver
-`
+```
 
 ▷ Getting the use of **-j** to get the details of jobs with related sytnax 🔊
 
-```
+```bash
 compgen -j
 ```
 
@@ -4864,13 +4864,13 @@ compgen -j
 
 ▷ Getting the use of argument **-k** while using compgen command in **Ubuntu Terminal** here 🔊
 
-```
+```bash
 compgen -k
 ```
 
 ⌨️ Let's explore the output of it below 👇🏻
 
-`
+```bash
 if
 then
 else
@@ -4893,17 +4893,17 @@ time
 [[
 ]]
 coproc
-`
+```
 
 ▷ Let's now get the command syntax for the use of **-s** used for getting the list of available services 🔊
 
-```
+```bash
 compgen -s
 ```
 
 ⌨️ Getting the details output in the form of list of services below 👇🏻
 
-`
+```bash
 tcpmux
 echo
 echo
@@ -5222,17 +5222,17 @@ csync2
 dircproxy
 tfido
 fido
-`
+```
 
 ▷ Getting the available usernames with the help **-u** in the syntax given below 🔊
 
-```
+```bash
 compgen -u
 ```
 
 ⌨️ Let's get the output of the above commad below 👇🏻
 
-`
+```bash
 root
 daemon
 bin
@@ -5282,17 +5282,17 @@ gnome-initial-setup
 gdm
 nm-openvpn
 ackwolver
-`
+```
 
 ▷ Time to get to our last optional argument in order to get the variable's names 🔊
 
-```
+```bash
 compgen -v
 ```
 
 ⌨️ Output regarding the one command is given below 👇🏻
 
-`
+```bash
 BASH
 BASHOPTS
 BASHPID
@@ -5395,7 +5395,7 @@ _
 __git_printf_supports_v
 _backup_glob
 _xspecs
-`
+```
 
 ## 🔌 Advance Usage Arugments 🖱️
 
