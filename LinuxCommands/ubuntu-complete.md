@@ -4,7 +4,7 @@
 
 ⦿ Getting started with the complete command in **Ubuntu Terminal**, below we have its example here 👇🏻
 
-```
+```bash
 complete
 ```
 
@@ -16,7 +16,7 @@ complete
 
 ➱ Let's get the specified command syntax here ⌨️
 
-```
+```bash
 complete -p
 # or
 complete
@@ -30,7 +30,7 @@ complete
 
 ➱ Let's try using this command and also we will run the command for getting the list of services or commands specified.
 
-```
+```bash
 complete -r
 # checking the commands list now
 complete -p
@@ -44,7 +44,7 @@ complete -p
 
 ➱ Not in order to keep it in a long format let us just keep the command for initial, default and empty compeletion specification at single format only that is been given below 🔊
 
-```
+```bash
 # running all the commands at once
 complete -D && complete -E && complete -I
 ```
