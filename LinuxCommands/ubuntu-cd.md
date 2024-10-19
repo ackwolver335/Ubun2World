@@ -4,7 +4,7 @@
 
 ⦿ Below we have the simple use of **cd** command which is used to redirect the **Terminal** to its main location where all users important and working directories are available.
 
-```
+```bash
 cd
 ```
 
@@ -14,7 +14,7 @@ cd
 
 ➱ Let's have its syntax below to understand it.
 
-```
+```bash
 cd sub-directory_name
 ```
 
@@ -26,25 +26,25 @@ cd sub-directory_name
 
 ➱ **-L** : This option with the **cd** command is been used in order to force symbolic links to be followed, another use is to resolve symbolic links in dir after processing instances of '..' Below we have an example for its better explanation.
 
-```
+```bash
 cd -L symbolic_links
 ```
 
 ➱ **-P** : It works similar to *-L* on the place it follows the physical directory structure or location without following the available symbols in it. And resolve symbolic links in **DIR** before processing instances of '..'
 
-```
+```bash
 cd -P symbolic_links
 ```
 
 ➱ **-e** : This option is used together with the above one, and if the current working directory is not supplied or is missing, it will exit with returning the status as **non-zero** status.
 
-```
+```bash
 cd -P -e sub-directory_location
 ```
 
 ➱ **-@** : It works in some versions of **Ubuntu**, and where it works it returns the file with extended attributes as a directory containing the file attributes. Let's understand it with the syntax given below.
 
-```
+```bash
 cd -@ sub-directory_name
 ```
 
